@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b064a4fd962ff224ab0fb7e11ebce130, type: 3}
+  m_Name: ConveyorConfig
+  m_EditorClassIdentifier: 
+  OvalWidth: 7
+  OvalHeight: 7
+  WaypointCount: 4
+  BeltWidth: 1
+  CubeCount: 300
+  Shape: 2
+  ShapeMaterial: {fileID: 2100000, guid: 906c03879a8a3424d9d9491bd6f7ce70, type: 2}
+  CubeSize: {x: 0.1, y: 0.1, z: 0.1}
+  BeltMaterial: {fileID: 2100000, guid: b1e46a9979ae1d342b22a962dbd18c6f, type: 2}
+  ConveyorSpeed: 3
+  FrictionCoefficient: 0.7
+  BoundaryBounciness: 1
+  VerletIterations: 1
+  HashCellSize: 0.5
+  DrawGizmos: 1

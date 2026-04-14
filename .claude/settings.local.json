@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find D:/Projects/AlgorithmTest_V02/Assets/Scripts/LoopSortTest -type f -name *.cs)"
+    ]
+  }
+}
